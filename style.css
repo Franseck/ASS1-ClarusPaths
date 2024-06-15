@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(
+    90deg,
+    rgba(66, 123, 134, 0.82) 10%,
+    rgba(44, 114, 167, 1) 39%,
+    rgba(134, 14, 185, 1) 67%
+  );
+ 
+  }
+
+  main{
+  display: grid;
+  place-items: center;
+}
+
+header {
+  text-align: center;
+  margin: 1rem;
+  color: white;
+  font-size: 2.5rem;
+  }
+
+  section {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 15px;
+    width: 80%;
+    background-color: rgba(211, 42, 42, 0.3);
+    
+}
+    h1 {
+        font-family: "Rubik Lines", system-ui;
+        font-weight: 400;
+        font-style: normal;
+        color: chocolate;
+    }
+
+h2 {
+    color: brown;
+    margin-bottom: 20px;
+    font-family: "Bungee Spice", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+      
+}
+img {
+    float: left;
+    width: 350px;
+    margin: 10px 20px 10px 10px;
+    border-radius: 5px;
+           
+    }
+    section:hover{
+        cursor: pointer;
+        height: 250px;
+        width: 100%
+    }
+
+.detail {
+        margin-top: 40px;
+      }
+
+p {
+   text-align: justify;
+   font-family: 'Times New Roman', Times, serif;
+   text-align: justify;
+   color: white;
+   font-weight: 300;
+   text-indent: 1rem;
+}
+
+button {
+    float: right;
+    margin-top: 30px;
+    margin-right: 50px;
+    width: 100px;
+    height: 35px;
+    border-radius: 10px;
+    background-color: coral;
+    border: none;
+    }
+    button:hover{
+        border: none;
+        outline: none;
+        cursor: pointer;
+        width: 100px;
+        height: 50px;
+    }  
+a {
+    text-decoration: none;
+    color: white;
+    font-family: "Goldman", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+footer p{
+    color: rgb(233, 207, 146);
+    text-align: center;
+    padding: 20px;
+    background:linear-gradient( 270deg,
+        rgba(66, 123, 134, 0.82) 10%,
+        rgba(44, 114, 167, 1) 39%,
+        rgba(134, 14, 185, 1) 67%
+      );
+    font-family: "Fuzzy Bubbles", sans-serif;
+    font-weight: 700;
+    font-style: normal; }
